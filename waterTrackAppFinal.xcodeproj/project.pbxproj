@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		393D609E2465B810008C9BC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393D609D2465B810008C9BC4 /* AppDelegate.swift */; };
+		393D60A02465B810008C9BC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393D609F2465B810008C9BC4 /* SceneDelegate.swift */; };
+		393D60A22465B810008C9BC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393D60A12465B810008C9BC4 /* ViewController.swift */; };
+		393D60A52465B810008C9BC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 393D60A32465B810008C9BC4 /* Main.storyboard */; };
+		393D60A82465B810008C9BC4 /* waterTrackAppFinal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 393D60A62465B810008C9BC4 /* waterTrackAppFinal.xcdatamodeld */; };
+		393D60AA2465B812008C9BC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 393D60A92465B812008C9BC4 /* Assets.xcassets */; };
+		393D60AD2465B812008C9BC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 393D60AB2465B812008C9BC4 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		393D609A2465B810008C9BC4 /* waterTrackAppFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = waterTrackAppFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		393D609D2465B810008C9BC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		393D609F2465B810008C9BC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		393D60A12465B810008C9BC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		393D60A42465B810008C9BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		393D60A72465B810008C9BC4 /* waterTrackAppFinal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = waterTrackAppFinal.xcdatamodel; sourceTree = "<group>"; };
+		393D60A92465B812008C9BC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		393D60AC2465B812008C9BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		393D60AE2465B812008C9BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		393D60972465B810008C9BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		393D60912465B810008C9BC4 = {
+			isa = PBXGroup;
+			children = (
+				393D609C2465B810008C9BC4 /* waterTrackAppFinal */,
+				393D609B2465B810008C9BC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		393D609B2465B810008C9BC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				393D609A2465B810008C9BC4 /* waterTrackAppFinal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		393D609C2465B810008C9BC4 /* waterTrackAppFinal */ = {
+			isa = PBXGroup;
+			children = (
+				393D609D2465B810008C9BC4 /* AppDelegate.swift */,
+				393D609F2465B810008C9BC4 /* SceneDelegate.swift */,
+				393D60A12465B810008C9BC4 /* ViewController.swift */,
+				393D60A32465B810008C9BC4 /* Main.storyboard */,
+				393D60A92465B812008C9BC4 /* Assets.xcassets */,
+				393D60AB2465B812008C9BC4 /* LaunchScreen.storyboard */,
+				393D60AE2465B812008C9BC4 /* Info.plist */,
+				393D60A62465B810008C9BC4 /* waterTrackAppFinal.xcdatamodeld */,
+			);
+			path = waterTrackAppFinal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		393D60992465B810008C9BC4 /* waterTrackAppFinal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 393D60B12465B812008C9BC4 /* Build configuration list for PBXNativeTarget "waterTrackAppFinal" */;
+			buildPhases = (
+				393D60962465B810008C9BC4 /* Sources */,
+				393D60972465B810008C9BC4 /* Frameworks */,
+				393D60982465B810008C9BC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = waterTrackAppFinal;
+			productName = waterTrackAppFinal;
+			productReference = 393D609A2465B810008C9BC4 /* waterTrackAppFinal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		393D60922465B810008C9BC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Cengiz Baygın";
+				TargetAttributes = {
+					393D60992465B810008C9BC4 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 393D60952465B810008C9BC4 /* Build configuration list for PBXProject "waterTrackAppFinal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 393D60912465B810008C9BC4;
+			productRefGroup = 393D609B2465B810008C9BC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				393D60992465B810008C9BC4 /* waterTrackAppFinal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		393D60982465B810008C9BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				393D60AD2465B812008C9BC4 /* LaunchScreen.storyboard in Resources */,
+				393D60AA2465B812008C9BC4 /* Assets.xcassets in Resources */,
+				393D60A52465B810008C9BC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		393D60962465B810008C9BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				393D60A22465B810008C9BC4 /* ViewController.swift in Sources */,
+				393D609E2465B810008C9BC4 /* AppDelegate.swift in Sources */,
+				393D60A82465B810008C9BC4 /* waterTrackAppFinal.xcdatamodeld in Sources */,
+				393D60A02465B810008C9BC4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		393D60A32465B810008C9BC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				393D60A42465B810008C9BC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		393D60AB2465B812008C9BC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				393D60AC2465B812008C9BC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		393D60AF2465B812008C9BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		393D60B02465B812008C9BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		393D60B22465B812008C9BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 854862PJZB;
+				INFOPLIST_FILE = waterTrackAppFinal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cengizbaygin.waterTrackAppFinal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		393D60B32465B812008C9BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 854862PJZB;
+				INFOPLIST_FILE = waterTrackAppFinal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cengizbaygin.waterTrackAppFinal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		393D60952465B810008C9BC4 /* Build configuration list for PBXProject "waterTrackAppFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				393D60AF2465B812008C9BC4 /* Debug */,
+				393D60B02465B812008C9BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		393D60B12465B812008C9BC4 /* Build configuration list for PBXNativeTarget "waterTrackAppFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				393D60B22465B812008C9BC4 /* Debug */,
+				393D60B32465B812008C9BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		393D60A62465B810008C9BC4 /* waterTrackAppFinal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				393D60A72465B810008C9BC4 /* waterTrackAppFinal.xcdatamodel */,
+			);
+			currentVersion = 393D60A72465B810008C9BC4 /* waterTrackAppFinal.xcdatamodel */;
+			path = waterTrackAppFinal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 393D60922465B810008C9BC4 /* Project object */;
+}

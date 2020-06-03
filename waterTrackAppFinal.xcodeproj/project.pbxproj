@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		393D609E2465B810008C9BC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393D609D2465B810008C9BC4 /* AppDelegate.swift */; };
 		393D60A02465B810008C9BC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393D609F2465B810008C9BC4 /* SceneDelegate.swift */; };
-		393D60A22465B810008C9BC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393D60A12465B810008C9BC4 /* ViewController.swift */; };
 		393D60A52465B810008C9BC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 393D60A32465B810008C9BC4 /* Main.storyboard */; };
 		393D60A82465B810008C9BC4 /* waterTrackAppFinal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 393D60A62465B810008C9BC4 /* waterTrackAppFinal.xcdatamodeld */; };
 		393D60AA2465B812008C9BC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 393D60A92465B812008C9BC4 /* Assets.xcassets */; };
 		393D60AD2465B812008C9BC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 393D60AB2465B812008C9BC4 /* LaunchScreen.storyboard */; };
+		393D60B52465B97F008C9BC4 /* waterTrackAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393D60B42465B97F008C9BC4 /* waterTrackAppViewController.swift */; };
+		393D60B72465B98B008C9BC4 /* waterTrackAppClassFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393D60B62465B98B008C9BC4 /* waterTrackAppClassFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		393D609A2465B810008C9BC4 /* waterTrackAppFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = waterTrackAppFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		393D609D2465B810008C9BC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		393D609F2465B810008C9BC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		393D60A12465B810008C9BC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		393D60A42465B810008C9BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		393D60A72465B810008C9BC4 /* waterTrackAppFinal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = waterTrackAppFinal.xcdatamodel; sourceTree = "<group>"; };
 		393D60A92465B812008C9BC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		393D60AC2465B812008C9BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		393D60AE2465B812008C9BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		393D60B42465B97F008C9BC4 /* waterTrackAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterTrackAppViewController.swift; sourceTree = "<group>"; };
+		393D60B62465B98B008C9BC4 /* waterTrackAppClassFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterTrackAppClassFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +62,9 @@
 			children = (
 				393D609D2465B810008C9BC4 /* AppDelegate.swift */,
 				393D609F2465B810008C9BC4 /* SceneDelegate.swift */,
-				393D60A12465B810008C9BC4 /* ViewController.swift */,
 				393D60A32465B810008C9BC4 /* Main.storyboard */,
+				393D60B42465B97F008C9BC4 /* waterTrackAppViewController.swift */,
+				393D60B62465B98B008C9BC4 /* waterTrackAppClassFile.swift */,
 				393D60A92465B812008C9BC4 /* Assets.xcassets */,
 				393D60AB2465B812008C9BC4 /* LaunchScreen.storyboard */,
 				393D60AE2465B812008C9BC4 /* Info.plist */,
@@ -141,7 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				393D60A22465B810008C9BC4 /* ViewController.swift in Sources */,
+				393D60B72465B98B008C9BC4 /* waterTrackAppClassFile.swift in Sources */,
+				393D60B52465B97F008C9BC4 /* waterTrackAppViewController.swift in Sources */,
 				393D609E2465B810008C9BC4 /* AppDelegate.swift in Sources */,
 				393D60A82465B810008C9BC4 /* waterTrackAppFinal.xcdatamodeld in Sources */,
 				393D60A02465B810008C9BC4 /* SceneDelegate.swift in Sources */,
